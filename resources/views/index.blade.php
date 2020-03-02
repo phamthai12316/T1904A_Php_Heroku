@@ -62,8 +62,8 @@
 
                         <li class="dropdown"><a >Product List <i class="fa fa-angle-down"></i></a>
                             <ul role="menu" class="sub-menu">
-                                <li><a href="../resources/views/product.blade.php">Product</a></li>
-                                <li><a href="../resources/views/productDetail.blade.php">Product Detail</a></li>
+                                <li><a href="product.blade.php">Product</a></li>
+                                <li><a href="productDetail.blade.php">Product Detail</a></li>
                             </ul>
                         </li>
                     </ul>
