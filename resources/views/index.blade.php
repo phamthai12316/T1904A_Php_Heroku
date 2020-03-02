@@ -58,12 +58,12 @@
                 </div>
                 <div class="collapse navbar-collapse">
                     <ul class="nav navbar-nav navbar-right">
-                        <li class="active"><a href="index.blade.php">Home</a></li>
+                        <li class="active"><a href="?route=index">Home</a></li>
 
                         <li class="dropdown"><a >Product List <i class="fa fa-angle-down"></i></a>
                             <ul role="menu" class="sub-menu">
-                                <li><a href="product.blade.php">Product</a></li>
-                                <li><a href="productDetail.blade.php">Product Detail</a></li>
+                                <li><a href="?route=product">Product</a></li>
+                                <li><a href="?route=product-list">Product Detail</a></li>
                             </ul>
                         </li>
                     </ul>
