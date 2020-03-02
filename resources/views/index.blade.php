@@ -6,22 +6,22 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Home | Triangle</title>
-    <link href="../../public/css/bootstrap.min.css" rel="stylesheet">
-    <link href="../../public/css/font-awesome.min.css" rel="stylesheet">
-    <link href="../../public/css/animate.min.css" rel="stylesheet">
-    <link href="../../public/css/lightbox.css" rel="stylesheet">
-	<link href="../../public/css/main.css" rel="stylesheet">
-	<link href="../../public/css/responsive.css" rel="stylesheet">
+    <link href="css/bootstrap.min.css" rel="stylesheet">
+    <link href="css/font-awesome.min.css" rel="stylesheet">
+    <link href="css/animate.min.css" rel="stylesheet">
+    <link href="css/lightbox.css" rel="stylesheet">
+	<link href="css/main.css" rel="stylesheet">
+	<link href="css/responsive.css" rel="stylesheet">
 
     <!--[if lt IE 9]>
-    <script src="../../public/js/html5shiv.js"></script>
-    <script src="../../public/js/respond.min.js"></script>
+    <script src="js/html5shiv.js"></script>
+    <script src="js/respond.min.js"></script>
     <![endif]-->
-    <link rel="shortcut icon" href="../../public/images/ico/favicon.ico">
-    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="../../public/images/ico/apple-touch-icon-144-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="../../public/images/ico/apple-touch-icon-114-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="../../public/images/ico/apple-touch-icon-72-precomposed.png">
-    <link rel="apple-touch-icon-precomposed" href="../../public/images/ico/apple-touch-icon-57-precomposed.png">
+    <link rel="shortcut icon" href="images/ico/favicon.ico">
+    <link rel="apple-touch-icon-precomposed" sizes="144x144" href="images/ico/apple-touch-icon-144-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="114x114" href="images/ico/apple-touch-icon-114-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" sizes="72x72" href="images/ico/apple-touch-icon-72-precomposed.png">
+    <link rel="apple-touch-icon-precomposed" href="images/ico/apple-touch-icon-57-precomposed.png">
 </head><!--/head-->
 
 <body>
@@ -52,7 +52,7 @@
                     </button>
 
                     <a class="navbar-brand" href="index.blade.php">
-                    	<h1><img src="../../public/images/logo.png" alt="logo"></h1>
+                    	<h1><img src="images/logo.png" alt="logo"></h1>
                     </a>
 
                 </div>
@@ -62,8 +62,8 @@
 
                         <li class="dropdown"><a >Product List <i class="fa fa-angle-down"></i></a>
                             <ul role="menu" class="sub-menu">
-                                <li><a href="product.blade.php">Product</a></li>
-                                <li><a href="productDetail.blade.php">Product Detail</a></li>
+                                <li><a href="../resources/views/product.blade.php">Product</a></li>
+                                <li><a href="../resources/views/productDetail.blade.php">Product Detail</a></li>
                             </ul>
                         </li>
                     </ul>
@@ -90,11 +90,11 @@
                         <p>Boudin doner frankfurter pig. Cow shank bresaola pork loin tri-tip tongue venison pork belly meatloaf short loin landjaeger biltong beef ribs shankle chicken andouille.</p>
                         <a href="#" class="btn btn-common">SIGN UP</a>
                     </div>
-                    <img src="../../public/images/home/slider/hill.png" class="slider-hill" alt="slider image">
-                    <img src="../../public/images/home/slider/house.png" class="slider-house" alt="slider image">
-                    <img src="../../public/images/home/slider/sun.png" class="slider-sun" alt="slider image">
-                    <img src="../../public/images/home/slider/birds1.png" class="slider-birds1" alt="slider image">
-                    <img src="../../public/images/home/slider/birds2.png" class="slider-birds2" alt="slider image">
+                    <img src="images/home/slider/hill.png" class="slider-hill" alt="slider image">
+                    <img src="images/home/slider/house.png" class="slider-house" alt="slider image">
+                    <img src="images/home/slider/sun.png" class="slider-sun" alt="slider image">
+                    <img src="images/home/slider/birds1.png" class="slider-birds1" alt="slider image">
+                    <img src="images/home/slider/birds2.png" class="slider-birds2" alt="slider image">
                 </div>
             </div>
         </div>
@@ -108,7 +108,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <img src="../../public/images/home/icon1.png" alt="">
+                            <img src="images/home/icon1.png" alt="">
                         </div>
                         <h2>Incredibly Responsive</h2>
                         <p>Ground round tenderloin flank shank ribeye. Hamkevin meatball swine. Cow shankle beef sirloin chicken ground round.</p>
@@ -117,7 +117,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">
-                            <img src="../../public/images/home/icon2.png" alt="">
+                            <img src="images/home/icon2.png" alt="">
                         </div>
                         <h2>Superior Typography</h2>
                         <p>Hamburger ribeye drumstick turkey, strip steak sausage ground round shank pastrami beef brisket pancetta venison.</p>
@@ -126,7 +126,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="900ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="900ms">
-                            <img src="../../public/images/home/icon3.png" alt="">
+                            <img src="images/home/icon3.png" alt="">
                         </div>
                         <h2>Swift Page Builder</h2>
                         <p>Venison tongue, salami corned beef ball tip meatloaf bacon. Fatback pork belly bresaola tenderloin bone pork kevin shankle.</p>
@@ -163,7 +163,7 @@
             <div class="row">
                 <div class="single-features">
                     <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <img src="../../public/images/home/image1.png" class="img-responsive" alt="">
+                        <img src="images/home/image1.png" class="img-responsive" alt="">
                     </div>
                     <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
                         <h2>Experienced and Enthusiastic</h2>
@@ -176,12 +176,12 @@
                         <P>Mollit eiusmod id chuck turducken laboris meatloaf pork loin tenderloin swine. Pancetta excepteur fugiat strip steak tri-tip. Swine salami eiusmod sint, ex id venison non. Fugiat ea jowl cillum meatloaf.</P>
                     </div>
                     <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <img src="../../public/images/home/image2.png" class="img-responsive" alt="">
+                        <img src="images/home/image2.png" class="img-responsive" alt="">
                     </div>
                 </div>
                 <div class="single-features">
                     <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <img src="../../public/images/home/image3.png" class="img-responsive" alt="">
+                        <img src="images/home/image3.png" class="img-responsive" alt="">
                     </div>
                     <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
                         <h2>Experienced and Enthusiastic</h2>
@@ -198,28 +198,28 @@
             <div class="row">
                 <div class="col-sm-12">
                     <div class="clients text-center wow fadeInUp" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <p><img src="../../public/images/home/clients.png" class="img-responsive" alt=""></p>
+                        <p><img src="images/home/clients.png" class="img-responsive" alt=""></p>
                         <h1 class="title">Happy Clients</h1>
                         <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud </p>
                     </div>
                     <div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="../../public/images/home/client1.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="images/home/client1.png" class="img-responsive" alt=""></a>
                         </div>
                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="../../public/images/home/client2.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="images/home/client2.png" class="img-responsive" alt=""></a>
                         </div>
                          <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="../../public/images/home/client3.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="images/home/client3.png" class="img-responsive" alt=""></a>
                         </div>
                          <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="../../public/images/home/client4.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="images/home/client4.png" class="img-responsive" alt=""></a>
                         </div>
                          <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="../../public/images/home/client5.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="images/home/client5.png" class="img-responsive" alt=""></a>
                         </div>
                          <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="../../public/images/home/client6.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="images/home/client6.png" class="img-responsive" alt=""></a>
                         </div>
                     </div>
                 </div>
@@ -232,14 +232,14 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-12 text-center bottom-separator">
-                    <img src="../../public/images/home/under.png" class="img-responsive inline" alt="">
+                    <img src="images/home/under.png" class="img-responsive inline" alt="">
                 </div>
                 <div class="col-md-4 col-sm-6">
                     <div class="testimonial bottom">
                         <h2>Testimonial</h2>
                         <div class="media">
                             <div class="pull-left">
-                                <a href="#"><img src="../../public/images/home/profile1.png" alt=""></a>
+                                <a href="#"><img src="images/home/profile1.png" alt=""></a>
                             </div>
                             <div class="media-body">
                                 <blockquote>Nisi commodo bresaola, leberkas venison eiusmod bacon occaecat labore tail.</blockquote>
@@ -248,7 +248,7 @@
                          </div>
                         <div class="media">
                             <div class="pull-left">
-                                <a href="#"><img src="../../public/images/home/profile2.png" alt=""></a>
+                                <a href="#"><img src="images/home/profile2.png" alt=""></a>
                             </div>
                             <div class="media-body">
                                 <blockquote>Capicola nisi flank sed minim sunt aliqua rump pancetta leberkas venison eiusmod.</blockquote>
@@ -305,10 +305,10 @@
     </footer>
     <!--/#footer-->
 
-    <script type="text/javascript" src="../../public/js/jquery.js"></script>
-    <script type="text/javascript" src="../../public/js/bootstrap.min.js"></script>
-    <script type="text/javascript" src="../../public/js/lightbox.min.js"></script>
-    <script type="text/javascript" src="../../public/js/wow.min.js"></script>
-    <script type="text/javascript" src="../../public/js/main.js"></script>
+    <script type="text/javascript" src="js/jquery.js"></script>
+    <script type="text/javascript" src="js/bootstrap.min.js"></script>
+    <script type="text/javascript" src="js/lightbox.min.js"></script>
+    <script type="text/javascript" src="js/wow.min.js"></script>
+    <script type="text/javascript" src="js/main.js"></script>
 </body>
 </html>
