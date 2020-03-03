@@ -62,8 +62,8 @@
 
                         <li class="dropdown"><a >Product List <i class="fa fa-angle-down"></i></a>
                             <ul role="menu" class="sub-menu">
-                                <li><a href="?route=product">Product</a></li>
-                                <li><a href="?route=product-list">Product Detail</a></li>
+                                <li><a href="/product">Product</a></li>
+                                <li><a href="/product-list">Product Detail</a></li>
                             </ul>
                         </li>
                     </ul>

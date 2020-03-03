@@ -14,3 +14,5 @@
 Route::get("/","WebController@home");
 Route::get("/product","WebController@product");
 Route::get("/product-list","WebController@productDetail");
+
+

@@ -9,6 +9,7 @@ use \Illuminate\Http\Request;
 class WebController extends Controller
 
 {
+
     public function home(){
         return view('index');
     }
@@ -18,6 +19,7 @@ class WebController extends Controller
     public function productDetail(){
         return view('productDetail');
     }
+
 }
 
 
