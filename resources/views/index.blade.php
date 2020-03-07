@@ -303,7 +303,7 @@
         </div>
     </footer>
     <!--/#footer-->
-    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h),p=c.getElementsByTagName(h)[0],m.async=1,m.src=i,p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/633850065fbfd6090eda3698f/c633f8e4ee14846ba45f1db5f.js");</script>
+    <script id="mcjs">!function(c,h,i,m,p){m=c.createElement(h);p=c.getElementsByTagName(h)[0];m.async=1;m.src=i;p.parentNode.insertBefore(m,p)}(document,"script","https://chimpstatic.com/mcjs-connected/js/users/633850065fbfd6090eda3698f/c633f8e4ee14846ba45f1db5f.js");</script>
     <script type="text/javascript" src="js/jquery.js"></script>
     <script type="text/javascript" src="js/bootstrap.min.js"></script>
     <script type="text/javascript" src="js/lightbox.min.js"></script>
