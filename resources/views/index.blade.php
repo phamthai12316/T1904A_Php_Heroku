@@ -191,7 +191,7 @@
             </div>
         </div>
     </section>
-    @endforeach
+    @endforeach;
      <!--/#features-->
 
     <section id="clients">
