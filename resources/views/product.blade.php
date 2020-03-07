@@ -51,7 +51,7 @@
                         <span class="icon-bar"></span>
                     </button>
 
-                    <a class="navbar-brand" href="index.blade.php">
+                    <a class="navbar-brand" href="/">
                         <h1><img src="images/logo.png" alt="logo"></h1>
                     </a>
 
