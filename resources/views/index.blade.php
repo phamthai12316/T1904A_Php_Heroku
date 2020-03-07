@@ -10,7 +10,7 @@
     <link href="{{asset("css/font-awesome.min.css")}}" rel="stylesheet">
     <link href="{{asset("css/animate.min.css")}}" rel="stylesheet">
     <link href="{{asset("css/lightbox.css")}}" rel="stylesheet">
-	<link href="{{asset("css/main.css")}} "rel="stylesheet">
+	<link href="{{asset("css/main.css")}}" rel="stylesheet">
 	<link href="{{asset("css/responsive.css"}}" rel="stylesheet">
 
     <!--[if lt IE 9]>
