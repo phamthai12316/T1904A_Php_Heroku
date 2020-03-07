@@ -172,6 +172,7 @@
                         <p>{{$p -> product_desc}}</p>
                     </div>
                 </div>
+                    @endforeach
             </div>
         </div>
     </section>
