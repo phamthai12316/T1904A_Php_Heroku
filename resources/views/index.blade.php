@@ -11,7 +11,7 @@
     <link href="{{asset("css/animate.min.css")}}" rel="stylesheet">
     <link href="{{asset("css/lightbox.css")}}" rel="stylesheet">
 	<link href="{{asset("css/main.css")}} "rel="stylesheet">
-	<link href="{{asse("css/responsive.css"}}" rel="stylesheet">
+	<link href="{{asset("css/responsive.css"}}" rel="stylesheet">
 
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
