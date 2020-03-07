@@ -6,12 +6,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Home | Triangle</title>
-    <link href="css/bootstrap.min.css" rel="stylesheet">
-    <link href="css/font-awesome.min.css" rel="stylesheet">
-    <link href="css/animate.min.css" rel="stylesheet">
-    <link href="css/lightbox.css" rel="stylesheet">
-	<link href="css/main.css" rel="stylesheet">
-	<link href="css/responsive.css" rel="stylesheet">
+    <link href="{{asset("css/bootstrap.min.css")}}" rel="stylesheet">
+    <link href="{{asset("css/font-awesome.min.css")}}" rel="stylesheet">
+    <link href="{{asset("css/animate.min.css")}}" rel="stylesheet">
+    <link href="{{asset("css/lightbox.css")}}" rel="stylesheet">
+	<link href="{{asset("css/main.css")}}" rel="stylesheet">
+	<link href="{{asset("css/responsive.css")}}" rel="stylesheet">
 
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -109,13 +109,13 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <img src="{{$p -> gallery}}" alt="">
+                            <img src="{{$p -> gallery}}" alt="No image">
                         </div>
                         <h2>{{$p -> product_name}}</h2>
                         <p>{{$p -> product_desc}}</p>
                     </div>
                 </div>
-                @endforeach;
+                @endforeach
 {{--                <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">--}}
 {{--                    <div class="single-service">--}}
 {{--                        <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="600ms">--}}
