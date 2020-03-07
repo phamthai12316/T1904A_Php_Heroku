@@ -6,12 +6,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Home | Triangle</title>
-    <link href="{{asset("css/bootstrap.min.css")}}" rel="stylesheet">
+    <link href="{{asset("css/bootstrap.min.css","true")}}" rel="stylesheet">
     <link href="{{asset("css/font-awesome.min.css")}}" rel="stylesheet">
-    <link href="{{asset("css/animate.min.css")}}" rel="stylesheet">
-    <link href="{{asset("css/lightbox.css")}}" rel="stylesheet">
-	<link href="{{asset("css/main.css")}}" rel="stylesheet">
-	<link href="{{asset("css/responsive.css")}}" rel="stylesheet">
+    <link href="{{asset("css/animate.min.css","true")}}" rel="stylesheet">
+    <link href="{{asset("css/lightbox.css","true")}}" rel="stylesheet">
+	<link href="{{asset("css/main.css","true")}}" rel="stylesheet">
+	<link href="{{asset("css/responsive.css","true")}}" rel="stylesheet">
 
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
