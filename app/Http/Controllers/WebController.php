@@ -14,7 +14,7 @@ class WebController extends Controller
     public function home(){
         $h1 = Product::orderBy('product_name')->take(3)->get();
         $h2 = Product::orderBy("product_desc")->take(3)->get();
-        $h3 = Product::orderBy('gallery','desc')->take(5)->get();
+        $h3 = Product::orderBy('gallery')->take(3)->get();
 
         return view('index',['h1'=>$h1,'h2'=>$h2,'h3'=>$h3]);
     }
