@@ -44,7 +44,7 @@ $factory->define(\App\Product::class, function (Faker $faker){
         'gallery'   =>  'img/products/'.random_int(1,12).'.jpg'.",".'img/products/'.random_int(1,12).'.jpg',
         'price' => random_int(1,1000),
         'quantity'=>  random_int(1,100),
-        'category_id'=> random_int(1,5),// vi vua chay random 100 category
-        'brand_id'=> random_int(1,3), // vi vua chay random 100 category
+        'category_id'=> random_int(1,50), // vi vua chay random 100 category
+        'brand_id'=> random_int(1,50) // vi vua chay random 100 category
     ];
 });
