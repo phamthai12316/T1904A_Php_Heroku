@@ -165,7 +165,7 @@
                 @foreach($h1 as $p)
                 <div class="single-features">
                     <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <img src="{{$p -> thumbnail}}" class="img-responsive" alt="">
+                        <img src="{{$p -> thumbnail}}" class="img-responsive" alt="No image">
                     </div>
                     <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
                         <h2>{{$p -> product_name}}</h2>
@@ -205,26 +205,13 @@
                         <h1 class="title">Happy Clients</h1>
                         <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud </p>
                     </div>
+                    @foreach($h1 as $p)
                     <div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client1.png" class="img-responsive" alt=""></a>
-                        </div>
-                        <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client2.png" class="img-responsive" alt=""></a>
-                        </div>
-                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client3.png" class="img-responsive" alt=""></a>
-                        </div>
-                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client4.png" class="img-responsive" alt=""></a>
-                        </div>
-                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client5.png" class="img-responsive" alt=""></a>
-                        </div>
-                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="images/home/client6.png" class="img-responsive" alt=""></a>
+                            <a href="#"><img src="{{$p -> thumbnail}}" class="img-responsive" alt="No image"></a>
                         </div>
                     </div>
+                    @endforeach
                 </div>
             </div>
         </div>
@@ -240,24 +227,26 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="testimonial bottom">
                         <h2>Testimonial</h2>
+                        @foreach($h1 as $p)
                         <div class="media">
                             <div class="pull-left">
-                                <a href="#"><img src="images/home/profile1.png" alt=""></a>
+                                <a href="#"><img src="{{$p -> thumbnail}}" alt=""></a>
                             </div>
                             <div class="media-body">
                                 <blockquote>Nisi commodo bresaola, leberkas venison eiusmod bacon occaecat labore tail.</blockquote>
-                                <h3><a href="#">- Jhon Kalis</a></h3>
+                                <h3><a href="#">- {{$p -> product_name}}</a></h3>
                             </div>
                          </div>
-                        <div class="media">
-                            <div class="pull-left">
-                                <a href="#"><img src="images/home/profile2.png" alt=""></a>
-                            </div>
-                            <div class="media-body">
-                                <blockquote>Capicola nisi flank sed minim sunt aliqua rump pancetta leberkas venison eiusmod.</blockquote>
-                                <h3><a href="">- Abraham Josef</a></h3>
-                            </div>
-                        </div>
+                        @endforeach
+{{--                        <div class="media">--}}
+{{--                            <div class="pull-left">--}}
+{{--                                <a href="#"><img src="images/home/profile2.png" alt=""></a>--}}
+{{--                            </div>--}}
+{{--                            <div class="media-body">--}}
+{{--                                <blockquote>Capicola nisi flank sed minim sunt aliqua rump pancetta leberkas venison eiusmod.</blockquote>--}}
+{{--                                <h3><a href="">- Abraham Josef</a></h3>--}}
+{{--                            </div>--}}
+{{--                        </div>--}}
                     </div>
                 </div>
                 <div class="col-md-3 col-sm-6">
