@@ -205,7 +205,7 @@
                         <h1 class="title">Happy Clients</h1>
                         <p>Sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. <br> Ut enim ad minim veniam, quis nostrud </p>
                     </div>
-                    @foreach($h1 as $p)
+                    @foreach($h2 as $p)
                     <div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="col-xs-3 col-sm-2">
                             <a href="#"><img src="{{$p -> thumbnail}}" class="img-responsive" alt="No image"></a>
