@@ -230,7 +230,7 @@
                         @foreach($h1 as $p)
                         <div class="media">
                             <div class="pull-left">
-                                <a href="#"><img src="{{$p -> thumbnail}}" alt=""></a>
+                                <a href="#"><img src="{{$p -> thumbnail}}" alt="No image"></a>
                             </div>
                             <div class="media-body">
                                 <blockquote>Nisi commodo bresaola, leberkas venison eiusmod bacon occaecat labore tail.</blockquote>
