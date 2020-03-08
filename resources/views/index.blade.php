@@ -109,7 +109,7 @@
                 <div class="col-sm-4 text-center padding wow fadeIn" data-wow-duration="1000ms" data-wow-delay="300ms">
                     <div class="single-service">
                         <div class="wow scaleIn" data-wow-duration="500ms" data-wow-delay="300ms">
-                            <img src="{{$p -> thumbnail}}" alt="No image">
+                            <img src="{{asset($p -> thumbnail)}}" alt="No image">
                         </div>
                         <h2>{{$p -> product_name}}</h2>
                         <p>{{$p -> product_desc}}</p>
