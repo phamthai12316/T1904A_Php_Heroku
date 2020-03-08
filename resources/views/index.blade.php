@@ -208,7 +208,7 @@
                     @foreach($h2 as $p)
                     <div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="{{asset($p -> thumbnail)}}" class="img-responsive" alt="No image"></a>
+                            <a href="#"><img src="{{$p -> thumbnail}}" class="img-responsive" alt="No image"></a>
                         </div>
                     </div>
                     @endforeach

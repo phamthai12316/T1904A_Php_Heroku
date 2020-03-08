@@ -40,8 +40,8 @@ $factory->define(\App\Product::class, function (Faker $faker){
     return[
         'product_name' => $faker->unique()->name,    // domainName: nếu mà để domain name thì kho ít nên bị trùng
         'product_desc' => $faker->title,
-        'thumbnail' => 'img/products/'.random_int(1,12).'.jpg',
-        'gallery'   =>  'img/products/'.random_int(1,12).'.jpg'.",".'img/products/'.random_int(1,12).'.jpg',
+        'thumbnail' => 'images/home/'.random_int(1,12).'.jpg',
+        'gallery'   =>  'images/home/'.random_int(1,12).'.jpg'.",".'images/home/'.random_int(1,12).'.jpg',
         'price' => random_int(1,1000),
         'quantity'=>  random_int(1,100),
         'category_id'=> random_int(1,50), // vi vua chay random 100 category
