@@ -227,7 +227,7 @@
                 <div class="col-md-4 col-sm-6">
                     <div class="testimonial bottom">
                         <h2>Testimonial</h2>
-                        @foreach($h1 as $p)
+                        @foreach($h3 as $p)
                         <div class="media">
                             <div class="pull-left">
                                 <a href="#"><img src="{{$p -> thumbnail}}" alt="No image"></a>
