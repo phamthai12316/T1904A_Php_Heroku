@@ -6,12 +6,12 @@
     <meta name="description" content="">
     <meta name="author" content="">
     <title>Home | Triangle</title>
-    <link href="{{asset("css/bootstrap.min.css","true")}}" rel="stylesheet">
+    <link href="{{asset("css/bootstrap.min.css")}}" rel="stylesheet">
     <link href="{{asset("css/font-awesome.min.css")}}" rel="stylesheet">
-    <link href="{{asset("css/animate.min.css","true")}}" rel="stylesheet">
-    <link href="{{asset("css/lightbox.css","true")}}" rel="stylesheet">
-	<link href="{{asset("css/main.css","true")}}" rel="stylesheet">
-	<link href="{{asset("css/responsive.css","true")}}" rel="stylesheet">
+    <link href="{{asset("css/animate.min.css")}}" rel="stylesheet">
+    <link href="{{asset("css/lightbox.css")}}" rel="stylesheet">
+	<link href="{{asset("css/main.css")}}" rel="stylesheet">
+	<link href="{{asset("css/responsive.css")}}" rel="stylesheet">
 
     <!--[if lt IE 9]>
     <script src="js/html5shiv.js"></script>
@@ -88,7 +88,7 @@
                     <div class="slide-text">
                         <h1>We Are Creative Nerds</h1>
                         <p>Boudin doner frankfurter pig. Cow shank bresaola pork loin tri-tip tongue venison pork belly meatloaf short loin landjaeger biltong beef ribs shankle chicken andouille.</p>
-                        <a href="#" class="btn btn-common">SIGN UP</a>
+                        <a href="/" class="btn btn-common">SIGN UP</a>
                     </div>
                     <img src="images/home/slider/hill.png" class="slider-hill" alt="slider image">
                     <img src="images/home/slider/house.png" class="slider-house" alt="slider image">
@@ -150,7 +150,7 @@
                         </div>
                         <div class="col-sm-5 text-center wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
                             <div class="tour-button">
-                                <a href="#" class="btn btn-common">TAKE THE TOUR</a>
+                                <a href="/product" class="btn btn-common">TAKE THE TOUR</a>
                              </div>
                         </div>
                     </div>
@@ -163,34 +163,30 @@
         <div class="container">
             <div class="row">
                 @foreach($h1 as $p)
-                <div class="single-features">
-                    <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <img src="{{$p -> thumbnail}}" class="img-responsive" alt="No image">
-                    </div>
-                    <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
-                        <h2>{{$p -> product_name}}</h2>
-                        <P>{{$p -> product_desc}}</P>
-                    </div>
-                </div>
+                    @if($loop->first || $loop ->last)
+                        <div class="single-features">
+                            <div class="col-sm-6 col-sm-offset-1 align-right wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                                <h2>{{$p -> product_name}}</h2>
+                                <P>Mollit eiusmod id chuck turducken laboris meatloaf pork loin tenderloin swine. Pancetta excepteur fugiat strip steak tri-tip. Swine salami eiusmod sint, ex id venison non. Fugiat ea jowl cillum meatloaf.</P>
+                            </div>
+                            <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                                <img src="{{$p -> thumbnail}}" class="img-responsive" alt="">
+                            </div>
+                        </div>
+                        @else
+                        <div class="single-features">
+                            <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">
+                                <img src="{{$p -> thumbnail}}" class="img-responsive" alt="No image">
+                            </div>
+                            <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">
+                                <h2>{{$p -> product_name}}</h2>
+                                <P>{{$p -> product_desc}}</P>
+                            </div>
+                        </div>
+
+                        @endif
+
                 @endforeach
-{{--                <div class="single-features">--}}
-{{--                    <div class="col-sm-6 col-sm-offset-1 align-right wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">--}}
-{{--                        <h2>{{$h1 -> product_name}}</h2>--}}
-{{--                        <P>Mollit eiusmod id chuck turducken laboris meatloaf pork loin tenderloin swine. Pancetta excepteur fugiat strip steak tri-tip. Swine salami eiusmod sint, ex id venison non. Fugiat ea jowl cillum meatloaf.</P>--}}
-{{--                    </div>--}}
-{{--                    <div class="col-sm-5 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">--}}
-{{--                        <img src="{{$h1 -> thumbnail}}" class="img-responsive" alt="">--}}
-{{--                    </div>--}}
-{{--                </div>--}}
-{{--                <div class="single-features">--}}
-{{--                    <div class="col-sm-5 wow fadeInLeft" data-wow-duration="500ms" data-wow-delay="300ms">--}}
-{{--                        <img src="{{$h1 -> thumbnail}}" class="img-responsive" alt="">--}}
-{{--                    </div>--}}
-{{--                    <div class="col-sm-6 wow fadeInRight" data-wow-duration="500ms" data-wow-delay="300ms">--}}
-{{--                        <h2>{{$h1 -> product_name}}</h2>--}}
-{{--                        <P>Ut officia cupidatat anim excepteur fugiat cillum ea occaecat rump pork chop tempor. Ut tenderloin veniam commodo. Shankle aliquip short ribs, chicken eiusmod exercitation shank landjaeger spare ribs corned beef.</P>--}}
-{{--                    </div>--}}
-{{--                </div>--}}
             </div>
         </div>
     </section>
@@ -208,7 +204,7 @@
                     @foreach($h2 as $p)
                     <div class="clients-logo wow fadeIn" data-wow-duration="1000ms" data-wow-delay="600ms">
                         <div class="col-xs-3 col-sm-2">
-                            <a href="#"><img src="{{$p -> thumbnail}}" class="img-responsive" alt="No image"></a>
+                            <a href="/product"><img src="{{$p -> thumbnail}}" class="img-responsive" alt="No image"></a>
                         </div>
                     </div>
                     @endforeach
@@ -230,11 +226,11 @@
                         @foreach($h3 as $p)
                         <div class="media">
                             <div class="pull-left">
-                                <a href="#"><img src="{{$p -> thumbnail}}" alt="No image"></a>
+                                <a href="/product"><img src="{{$p -> thumbnail}}" alt="No image"></a>
                             </div>
                             <div class="media-body">
                                 <blockquote>Nisi commodo bresaola, leberkas venison eiusmod bacon occaecat labore tail.</blockquote>
-                                <h3><a href="#">- {{$p -> product_name}}</a></h3>
+                                <h3><a href="/product">- {{$p -> product_name}}</a></h3>
                             </div>
                          </div>
                         @endforeach
